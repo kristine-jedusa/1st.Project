@@ -49,13 +49,13 @@ namespace cv.Controllers
 
             return View();
         }
-        public ActionResult Kursi()
+        public ActionResult VaditajaAplieciba()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
-        public ActionResult VaditajaAplieciba()
+        public ActionResult MotivacijasVestule()
         {
             ViewBag.Message = "Your contact page.";
 

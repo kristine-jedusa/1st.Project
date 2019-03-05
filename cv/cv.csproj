@@ -137,13 +137,27 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DarbaPieredze.css" />
+    <Content Include="Content\Images\Image\52605363_526209747902351_3410273783292887040_o.jpg" />
+    <Content Include="Content\Images\Image\hansa training.jpg" />
+    <Content Include="Content\Images\Image\koledza.jpg" />
+    <Content Include="Content\Images\Image\vidusskola.jpg" />
+    <Content Include="Content\Izglitiba.css" />
+    <Content Include="Content\Kontakti.css" />
+    <Content Include="Content\MotivacijasVestule.css" />
+    <Content Include="Content\PersonasDati.css" />
+    <Content Include="Content\Prasmes.css" />
+    <Content Include="Content\VaditajaAplieciba.css" />
+    <Content Include="Content\Valodas.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\Video\TOYOTA CELICA GT4 ST205  AG Films.mp4" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\DarbaPieredze.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -154,6 +168,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Prasmes.js" />
+    <Content Include="Scripts\VaditajaAplieciba.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -172,13 +188,13 @@
     <Content Include="Views\Home\Izglitiba.cshtml" />
     <Content Include="Views\Home\Prasmes.cshtml" />
     <Content Include="Views\Home\Valodas.cshtml" />
-    <Content Include="Views\Home\Kursi.cshtml" />
     <Content Include="Views\Home\VaditajaAplieciba.cshtml" />
     <Content Include="Views\Home\Kontakti.cshtml" />
+    <Content Include="Views\Home\MotivacijasVestule.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Models\Image\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

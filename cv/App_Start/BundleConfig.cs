@@ -25,6 +25,23 @@ namespace cv
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/bundles/Prasmes").Include(
+                      "~/Scripts/Prasmes.js"));
+            bundles.Add(new StyleBundle("~/Prasmes/css").Include(
+                      "~/Content/Prasmes.css"));
+
+            bundles.Add(new StyleBundle("~/Izglitiba/css").Include(
+                      "~/Content/Izglitiba.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/VaditajaAplieciba").Include(
+                     "~/Scripts/VaditajaAplieciba.js"));
+            bundles.Add(new StyleBundle("~/VaditajaApliecibas/css").Include(
+                      "~/Content/VaditajaAplieciba.css"));
+
+
+
+
+
         }
     }
 }
