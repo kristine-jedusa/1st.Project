@@ -16,8 +16,8 @@ h2{
     font-size:50px;
     word-break:break-all;
 }
-.row{
-    margin:8px -16px;
+.row {
+    margin: 8px -16px;
 }
 .row,
 .row>.column{

@@ -1,4 +1,5 @@
-﻿var video = document.getElementById("myVideo");
+﻿console.log("tada");
+var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 function myFunction() {
     if (video.paused) {

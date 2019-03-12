@@ -8,10 +8,6 @@ namespace cv.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
 
         public ActionResult PersonasDati()
         {
@@ -21,13 +17,6 @@ namespace cv.Controllers
         public ActionResult DarbaPieredze()
         {
             ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Kontakti()
-        {
-            ViewBag.Message = "Your contact page.";
 
             return View();
         }

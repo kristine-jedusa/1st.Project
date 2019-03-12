@@ -25,6 +25,7 @@ namespace cv
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
             bundles.Add(new ScriptBundle("~/bundles/Prasmes").Include(
                       "~/Scripts/Prasmes.js"));
             bundles.Add(new StyleBundle("~/Prasmes/css").Include(
@@ -38,9 +39,11 @@ namespace cv
             bundles.Add(new StyleBundle("~/VaditajaApliecibas/css").Include(
                       "~/Content/VaditajaAplieciba.css"));
 
+            bundles.Add(new StyleBundle("~/PersonasDati/css").Include(
+                      "~/Content/PersonasDati.css"));
 
-
-
+            bundles.Add(new StyleBundle("~/DarbaPieredze1/css").Include(
+                      "~/Content/DarbaPieredze1.css"));
 
         }
     }

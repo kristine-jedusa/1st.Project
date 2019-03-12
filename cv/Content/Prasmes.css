@@ -1,7 +1,9 @@
-﻿
+﻿body {
+    background-image: url(https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
 
 .accordion {
-    background-color: blue;
+    background-color:none;
     color: wheat;
     cursor: pointer;
     padding: 20px;
@@ -13,12 +15,12 @@
 }
 
 .active.accordion:hover {
-    background-color: aqua;
+    background-color: red;
 }
 
 .panel {
     padding: 0 20px;
-    background-color: white;
+    background-image: url(https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     display: none;
     overflow: hidden;
 }

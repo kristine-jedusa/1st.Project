@@ -9,26 +9,23 @@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Curriculum Vitae ", "PersonasDati", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Personas dati", "PersonasDati", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Personas dati", "PersonasDati", "Home")</li>
-                    <li>@Html.ActionLink("Darba pieredze", "DarbaPieredze", "Home")</li>
-                    <li>@Html.ActionLink("Izglitība", "Izglitiba", "Home")</li>
-                    <li>@Html.ActionLink("Prasmes", "Prasmes", "Home")</li>
-                    <li>@Html.ActionLink("Valodas", "Valodas", "Home")</li>
-                    <li>@Html.ActionLink("Vaditāja apliecība", "VaditajaAplieciba", "Home")</li>
-                    <li>@Html.ActionLink("Kontakti", "Kontakti", "Home")</li>
-                    <li>@Html.ActionLink("Motivācijas vestule", "MotivacijasVestule", "Home")</li>
-
+                    <li class="nav-item">@Html.ActionLink("Darba pieredze", "DarbaPieredze", "Home", new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("Izglītība", "Izglitiba", "Home", new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("Prasmes", "Prasmes", "Home")</li>
+                    <li class="nav-item">@Html.ActionLink("Valodas", "Valodas", "Home", new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("Vaditāja apliecība", "VaditajaAplieciba", "Home", new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("Motivācijas vestule", "MotivacijasVestule", "Home", new { @class = "nav-link" })</li>
                 </ul>
             </div>
         </div>
@@ -37,7 +34,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year</p>
         </footer>
     </div>
 

@@ -12,13 +12,13 @@ body {
     right:0;
     bottom:0;
     min-width:100%;
-    min-hight:100%;
+    min-height:100%;
 }
 .content{
     position:fixed;
     bottom:0;
     background:rgba(0,0,0,0.5);
-    color:aqua;
+    color:green;
     width:100%;
     padding:20px;
 }
@@ -28,7 +28,7 @@ body {
     padding:10px;
     border:none;
     background:#000;
-    color:red;
+    color:springgreen;
     cursor:pointer;
 }
 #myBtn:hover{

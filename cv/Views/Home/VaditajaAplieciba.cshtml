@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "VaditajaAplieciba";
 }
-@Scripts.Render("~/bundles/VaditajaAplieciba")
+
 @Styles.Render("~/VaditajaApliecibas/css")
 
 
@@ -11,9 +11,12 @@
 </video>
 
 <div class="content">
-    <h2>VaditajaAplieciba</h2>
-    <h3>  B kategorija (savs auto, 5 gadu pieredze)</h3>
-<button id="myBtn" onclick="myFunction()">
-    Pause
-</button>
+    <h2>Vaditāja Apliecība</h2>
+    <h3>  B kategorija (Savs auto (Toyota Celica),5 gadu pieredze)</h3>
+    <button id="myBtn" onclick="myFunction()">
+        Pause
+    </button>
 </div>
+@section scripts {
+    @Scripts.Render("~/bundles/VaditajaAplieciba")
+}
