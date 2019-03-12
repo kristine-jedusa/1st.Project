@@ -1,7 +1,4 @@
-﻿body {
-    background-image: url(https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
-
+﻿
 .accordion {
     background-color:none;
     color: wheat;
@@ -15,7 +12,7 @@
 }
 
 .active.accordion:hover {
-    background-color: red;
+    background-color: black;
 }
 
 .panel {
