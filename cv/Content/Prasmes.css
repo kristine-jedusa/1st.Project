@@ -1,23 +1,21 @@
-﻿
+﻿body {
+    background-image: url(https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
 .accordion {
     background-color:none;
-    color: wheat;
+    color: red;
     cursor: pointer;
     padding: 20px;
-    width: 100%;
+    width: 50%;
     border: none;
     outline: none;
     transition: 0.4s;
-   
 }
-
 .active.accordion:hover {
     background-color: black;
 }
-
 .panel {
     padding: 0 20px;
-    background-image: url(https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     display: none;
     overflow: hidden;
 }

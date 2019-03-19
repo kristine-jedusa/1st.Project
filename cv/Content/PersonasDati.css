@@ -1,6 +1,8 @@
-﻿bc{
-    background-image: url(https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+﻿html{
     box-sizing:border-box;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 *,*:before,*:after{
     box-sizing:inherit;
@@ -13,17 +15,20 @@
 }
 @media screen and (max-width:650px){
     .column{
-        width:50%;
+        width:100%;
         display:block;
     }
 }
+.card{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.8);
+}
 
 .container{
-    float:left;
     padding:0 16px;
+    color:aqua;
 }
 .container::after, .row::after{
-    content:"";
+    content: "";
     clear:both;
     display:table;
 }

@@ -45,6 +45,14 @@ namespace cv
             bundles.Add(new StyleBundle("~/DarbaPieredze1/css").Include(
                       "~/Content/DarbaPieredze1.css"));
 
+            bundles.Add(new StyleBundle("~/Valodas/css").Include(
+                      "~/Content/Valodas.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/MotivacijasVestule").Include(
+                     "~/Scripts/MotivacijasVestule.js"));
+            bundles.Add(new StyleBundle("~/MotivacijasVestule/css").Include(
+                      "~/Content/MotivacijasVestule.css"));
+
         }
     }
 }

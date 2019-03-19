@@ -3,9 +3,9 @@
     box-sizing:border-box;
 }
 body {
-    margin:0;
-    font-family:Arial;
-    font-size:17px;
+    margin: 0;
+    font-family: Sofia;
+    font-size: 17px;
 }
 #myVideo{
     position:fixed;
@@ -24,7 +24,7 @@ body {
     position:fixed;
     bottom:0;
     background:rgba(0,0,0,0.5);
-    color:red;
+    color:blue;
     width:100%;
     padding:20px;
 }
@@ -34,7 +34,7 @@ body {
     padding:10px;
     border:none;
     background:#000;
-    color:blue;
+    color:white;
     cursor:pointer;
 }
 #myBtn:hover{

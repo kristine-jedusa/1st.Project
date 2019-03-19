@@ -2,33 +2,13 @@
 @{
     ViewBag.Title = "MotivacijasVestule";
 }
-
-<h2>Motivācijas vēstule</h2>
-<p>
-    PIETEIKUMS
-    Atsaucoties uz CV-Online mājaslapā www.cv.lv pieejamo informāciju, vēlos izvirzīt 
-    savu kandidatūru uz ................... amatu.
-    Mana līdzšinējā darba pieredze ir saistīta ar vairākām profesijām . SIA “AS.BALTIC”-
-    manos darba pienākumos ietilpa preces pārdošana pa telefonu, informācijas iegūšana,
-    to apstrāde,preces nosūtīšana. Man ir labas komunikācija prasmes, spēju patstāvīgi 
-    organizēt savu darbu.Sia ‘FURORS’- šajā amatā es iemācijos visu,jo bija jāstrādā 
-    par visām nodaļām, sākot ar administrātora darbu, beidzot ar finanšu vadītāja darbu. 
-    Manos darba pienākumos bija veidot atskaites par katru filiāli, kontrolēt, pieskatīt,
-    uzraudzīt, dot padomus stresa situācijā un vienmēr būt pārliecinātai par saviem darba 
-    rezultātiem 29 azarspēļu iestādes”Klondaika” un šo iestāžu 3 restorānos. 1 mēneša pieredze
-    SIA „Euro Live Technologies”- deva iespēju uzstāties kameru priekšā, lietot tikai 
-    angļu valodu(kas uzlaboja valodas zināšanas,jo apmācības bija tikai angļu valodā), 
-    precizitāte darbā un stresa noturība ir tikai liels plus. SIA” Paus Konsults” ,
-    stresa situācijas 24/7, problēmu risināšana, juridisko zināšanu pielietošana, 
-    bet vairāk lepojos ar to, ka es tiešām centos palīdzēt cilvēkiem tikt galā ar 
-    viņu problēmām, tieši tas deva pašus augstākos rezultātus, kas pārstedza pašus priekšniekus.
-    Es gribētu kļūt par Jūsu firmas komandas dalībnieku, jo man šķiet, ka tieši Jusu uzņēmumā
-    es varētu sniegt lielu iegūldījumu  darbā, kā arī es iegūtu jaunas zināšanas.
-    To, ko nezinu labprāt iemācīšos un macos es ļoti ātri. Pierādu sevi jau pirmajos
-    mēnešos, uzrādot labus rezultātus. Patīk pašai sevi attīstīt. Dievinu jurisprodenci,
-    bet mācijusies tikai pašapmācībās ceļā. Katrā darbā vēlos sevi pierādīt un attīstīt.
-    Patīk fizisks darbs, kurā japiedomā pie katra soļa.
-    Augsti novērtēšu Jūsu uzaicinājumu uz darba interviju, lai pārrunātu manas iespējas
-    kandidēt uz šo amatu.
-</p>
-
+@Styles.Render("~/MotivacijasVestule/css")
+<body>
+    <st>
+        <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+        <h2>Motivācijas vēstule</h2>
+        <button onclick="typeWriter()">Uzpied mani !</button>
+        <p id="demo"></p>
+    </st>
+</body>
+@Scripts.Render("~/bundles/MotivacijasVestule")

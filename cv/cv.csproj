@@ -150,9 +150,11 @@
     <Content Include="Content\Images\Image\Profil.jpg" />
     <Content Include="Content\Images\Image\vidusskola.jpg" />
     <Content Include="Content\Izglitiba.css" />
+    <Content Include="Content\MotivacijasVestule.css" />
     <Content Include="Content\PersonasDati.css" />
     <Content Include="Content\Prasmes.css" />
     <Content Include="Content\VaditajaAplieciba.css" />
+    <Content Include="Content\Valodas.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -172,6 +174,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\MotivacijasVestule.js" />
     <Content Include="Scripts\Prasmes.js" />
     <Content Include="Scripts\VaditajaAplieciba.js" />
     <Content Include="Web.config">
