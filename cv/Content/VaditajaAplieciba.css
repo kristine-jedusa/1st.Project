@@ -2,9 +2,11 @@
 *{
     box-sizing:border-box;
 }
+bg {
+    font-family: Sofia;
+}
 body {
     margin: 0;
-    font-family: Sofia;
     font-size: 17px;
 }
 #myVideo{

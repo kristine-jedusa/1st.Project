@@ -1,10 +1,10 @@
-﻿body {
+﻿bg {
     background-image: url(https://images.pexels.com/photos/235909/pexels-photo-235909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
-div {
+all {
     margin-bottom: 15px;
     padding: 4px 12px;
-    font-family:Arbutus;
+    font-family:Anton;
 }
 .success{
     background-color:aquamarine;
