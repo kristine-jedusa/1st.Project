@@ -2,6 +2,7 @@
     box-sizing:border-box;
 }
 bg {
+    font-family: Berkshire Swash;
     background-image: url(https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 *,*:before,*:after{
@@ -9,7 +10,7 @@ bg {
 }
 .column{
     float:left;
-    width:50%;
+    width:40%;
     margin-bottom:16px;
     padding:0 8px;
 }
@@ -25,7 +26,7 @@ bg {
 
 .container{
     padding:0 16px;
-    color:aqua;
+    color:darkviolet;
 }
 .container::after, .row::after{
     content: "";
@@ -41,7 +42,7 @@ bg {
     background-color:#000;
     text-align:center;
     cursor:pointer;
-    width:100%;
+    width:36%;
 }
 .button:hover{
     background-color:#555;

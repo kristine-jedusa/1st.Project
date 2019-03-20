@@ -1,11 +1,8 @@
-﻿
-*{
+﻿*{
     box-sizing:border-box;
 }
 bg {
     font-family: Sofia;
-}
-body {
     margin: 0;
     font-size: 17px;
 }

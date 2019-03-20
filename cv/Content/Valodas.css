@@ -2,15 +2,15 @@
     background-image: url(https://images.pexels.com/photos/235909/pexels-photo-235909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 all {
-    margin-bottom: 15px;
-    padding: 4px 12px;
-    font-family:Anton;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    font-family: Bonbon;
 }
 .success{
     background-color:aquamarine;
-    border-left:6px solid forestgreen;
+    border-left:12px solid forestgreen;
 }
 .warning{
     background-color:cornsilk;
-    border-left: 6px solid #ffeb3b;
+    border-left: 12px solid #ffeb3b;
 }
