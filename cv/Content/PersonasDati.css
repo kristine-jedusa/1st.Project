@@ -1,18 +1,22 @@
-﻿html{
-    box-sizing:border-box;
+﻿html {
+    box-sizing: border-box;
 }
-bg {
+body {
     font-family: Berkshire Swash;
-    background-image: url(https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+}
+.row{
+    float:left;
 }
 *,*:before,*:after{
     box-sizing:inherit;
 }
-.column{
-    float:left;
+.column {
+    float: left;
     width:40%;
-    margin-bottom:16px;
-    padding:0 8px;
+    height: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
 }
 @media screen and (max-width:650px){
     .column{
@@ -26,9 +30,9 @@ bg {
 
 .container{
     padding:0 16px;
-    color:darkviolet;
+    color:navajowhite;
 }
-.container::after, .row::after{
+.container:after, .row:after{
     content: "";
     clear:both;
     display:table;
