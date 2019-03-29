@@ -13,11 +13,12 @@ body {
 
 }
 h2{
-    font-size:50px;
+    font-size:40px;
     word-break:break-all;
 }
 .row {
     margin: 8px -16px;
+    float:left;
 
 }
 .row,
@@ -25,11 +26,10 @@ h2{
     padding:8px;
 }
 .column{
-    float:left;
-    width:50%;
+   
+    width:30%;
 }
 .row:after{
-    content:"";
     display:table;
     clear:both;
 }

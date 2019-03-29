@@ -1,17 +1,29 @@
-﻿body {
+﻿body{
     background-image: url(https://images.pexels.com/photos/235909/pexels-photo-235909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
-all {
-    margin-bottom: 20px;
-    padding: 6px 12px;
-    font-family: Bonbon;
-    font-size:22px;
+bg {
+    font-family: Wallpoet;
 }
-.success{
-    background-color:aquamarine;
-    border-left:12px solid forestgreen;
+h1{
+    color:white;
 }
-.warning{
-    background-color:cornsilk;
-    border-left: 12px solid #ffeb3b;
+
+.element {
+    padding: 10px;
+    font-size: 20px;
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color:blue;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: purple;
+    }
 }
