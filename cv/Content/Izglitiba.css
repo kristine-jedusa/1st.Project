@@ -4,8 +4,11 @@
 }
 body {
     background-image: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    padding: 20px;
-    font-family: Condiment ;font-size: 22px;
+    padding: 30px;
+}
+bg {
+    font-family: Condiment;
+    font-size: 22px;
 }
 .main{
     max-width:1000px;
@@ -27,7 +30,7 @@ h2{
 }
 .column{
    
-    width:30%;
+    width:50%;
 }
 .row:after{
     display:table;

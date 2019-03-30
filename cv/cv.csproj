@@ -145,11 +145,14 @@
     <Content Include="Content\Images\Image\5.jpg" />
     <Content Include="Content\Images\Image\52605363_526209747902351_3410273783292887040_o.jpg" />
     <Content Include="Content\Images\Image\6.jpg" />
+    <Content Include="Content\Images\Image\eng flag.png" />
     <Content Include="Content\Images\Image\exel.jpg" />
     <Content Include="Content\Images\Image\hansa training.jpg" />
     <Content Include="Content\Images\Image\high hopes - panic! at the disco %28lyrics%29.mp3" />
     <Content Include="Content\Images\Image\koledza.jpg" />
+    <Content Include="Content\Images\Image\lv flag.png" />
     <Content Include="Content\Images\Image\Profil.jpg" />
+    <Content Include="Content\Images\Image\ru flag.jpg" />
     <Content Include="Content\Images\Image\vidusskola.jpg" />
     <Content Include="Content\Izglitiba.css" />
     <Content Include="Content\MotivacijasVestule.css" />
@@ -164,6 +167,7 @@
     <Content Include="Models\Video\TOYOTA CELICA GT4 ST205  AG Films.mp4" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Images\Image\PERSONAS DATI.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\DarbaPieredze.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

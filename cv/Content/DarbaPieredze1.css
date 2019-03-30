@@ -1,6 +1,9 @@
 ﻿body {
-    font-family: Bangers;
+    
     background-image: url(https://images.pexels.com/photos/449627/pexels-photo-449627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+bg {
+    font-family: Bangers;
 }
 p{
     font-size:22px;
