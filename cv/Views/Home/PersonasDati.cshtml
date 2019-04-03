@@ -8,47 +8,54 @@
 <html>
 <body>
     <bg>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
-            <audio controls>
-                <source src="~/Content/Images/Image/high hopes - panic! at the disco (lyrics).mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-            <h2>Personas dati</h2>
-            <br>
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <img src="~/Content/Images/Image/Profil.jpg"
-                             alt="Avatar" class="image" style="width:100%" />
-                        <div class="container">
-                            <h3>KRISTĪNE    JEDUŠA</h3>
-                            <p>Deklarētā  dzīvesvieta: Madonas novads, Ošupes pag. “Dūdiņas” LV-4833</p>
-                            <p>Faktiskā dzīvesvieta: Lokomotīves iela 32, Rīga</p>
-                            <p>Telefons: 22368910</p>
-                            <p>E-pasts: megapele66@inbox.lv</p>
-                            <p>Dzimšanas datums: 25.02.1996</p>
-                            <button class="button">Kontakti</button>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+        <audio controls>
+            <source src="~/Content/Images/Image/high hopes - panic! at the disco (lyrics).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h2>Personas dati</h2>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="~/Content/Images/Image/Profil.jpg"
+                         alt="Avatar" class="image" style="width:100%" />
+                    <div class="container">
+                        <h3>KRISTĪNE    JEDUŠA</h3>
+                        <p>Deklarētā  dzīvesvieta: Madonas novads, Ošupes pag. “Dūdiņas” LV-4833</p>
+                        <p>Faktiskā dzīvesvieta: Lokomotīves iela 32, Rīga</p>
+                        <p>Dzimšanas datums: 25.02.1996</p>
+                        <button class="button" onclick="document.getElementById('id01').style.display='block'">Kontakti</button>
+                        <div id="id01" class="modal">
+                            <form class="modal-content animate" action="/action_page.php">
+                                <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="~/Content/Images/Image/avatar.jpg" alt="Avatar" class="avatar">
+                                </div>
+                                <p>Telefons: 22368910</p>
+                                <p>E-pasts: megapele66@inbox.lv</p>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <img src="~/Content/Images/Image/exel.jpg"
-                             alt="Avatar" class="image1" style="width:100%" />
-                        <div class="container">
-                            <h3>Word Fails</h3>
-                            <p> CV papīra formātā <a href="~/Content/Images/Image/PERSONAS DATI.pdf"</a></p>
-                            <button class="button"><i class="fa fa-download"></i>Lejuplādēt</button>
-                        </div>
+            <div class="column">
+                <div class="card">
+                    <img src="~/Content/Images/Image/pdf.jpg"
+                         alt="Avatar" class="image1" style="width:100%" />
+                    <div class="container">
+                        <h3>Word Fails</h3>
+                        <p> CV papīra formātā <a href="~/Content/Images/Image/PERSONAS DATI.pdf"</a></p>
+                        <button class="button"><i class="fa fa-download"></i>Lejuplādēt</button>
                     </div>
                 </div>
             </div>
+        </div>
     </bg>
 </body>
+@section scripts{
+   @Scripts.Render("~/bundles/PersonasDati.js")
+}
 </html>
 

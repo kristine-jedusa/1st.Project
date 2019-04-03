@@ -32,9 +32,10 @@ h2{
    
     width:50%;
 }
-.row:after{
-    display:table;
-    clear:both;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .content{
     background-color:aquamarine;

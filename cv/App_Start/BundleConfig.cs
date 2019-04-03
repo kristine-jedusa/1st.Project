@@ -39,6 +39,8 @@ namespace cv
             bundles.Add(new StyleBundle("~/VaditajaApliecibas/css").Include(
                       "~/Content/VaditajaAplieciba.css"));
 
+            bundles.Add(new ScriptBundle("~/bundles/PersonasDati.js").Include(
+                     "~/Scripts/PersonasDati.js"));
             bundles.Add(new StyleBundle("~/PersonasDati/css").Include(
                       "~/Content/PersonasDati.css"));
 

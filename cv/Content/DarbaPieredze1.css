@@ -8,6 +8,10 @@ bg {
 p{
     font-size:22px;
 }
+.row {
+    float: left;
+}
+
 
 .flip-box {
     background-color: transparent;

@@ -145,12 +145,14 @@
     <Content Include="Content\Images\Image\5.jpg" />
     <Content Include="Content\Images\Image\52605363_526209747902351_3410273783292887040_o.jpg" />
     <Content Include="Content\Images\Image\6.jpg" />
+    <Content Include="Content\Images\Image\avatar.jpg" />
     <Content Include="Content\Images\Image\eng flag.png" />
     <Content Include="Content\Images\Image\exel.jpg" />
     <Content Include="Content\Images\Image\hansa training.jpg" />
     <Content Include="Content\Images\Image\high hopes - panic! at the disco %28lyrics%29.mp3" />
     <Content Include="Content\Images\Image\koledza.jpg" />
     <Content Include="Content\Images\Image\lv flag.png" />
+    <Content Include="Content\Images\Image\pdf.jpg" />
     <Content Include="Content\Images\Image\Profil.jpg" />
     <Content Include="Content\Images\Image\ru flag.jpg" />
     <Content Include="Content\Images\Image\vidusskola.jpg" />
@@ -181,6 +183,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\MotivacijasVestule.js" />
+    <Content Include="Scripts\PersonasDati.js" />
     <Content Include="Scripts\Prasmes.js" />
     <Content Include="Scripts\VaditajaAplieciba.js" />
     <Content Include="Web.config">
