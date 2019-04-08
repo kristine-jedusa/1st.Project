@@ -4,7 +4,7 @@
 }
 body {
     background-image: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    padding: 30px;
+    padding: 50px;
 }
 bg {
     font-family: Condiment;
@@ -16,17 +16,18 @@ bg {
 
 }
 h2{
+    margin-top:50px;
     font-size:40px;
     word-break:break-all;
 }
 .row {
     margin: 8px -16px;
-    float:left;
 
 }
 .row,
-.row>.column{
-    padding:8px;
+.row > .column {
+    padding: 8px;
+    float: left;
 }
 .column{
    
@@ -37,9 +38,10 @@ h2{
     display: table;
     clear: both;
 }
-.content{
-    background-color:aquamarine;
-    padding:10px;
+.content {
+    background-color: aquamarine;
+    height: 500px;
+    padding: 10px;
 }
 @media screen and (max-width:900px){
     .colum{

@@ -11,6 +11,11 @@ p{
 .row {
     float: left;
 }
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
 
 
 .flip-box {

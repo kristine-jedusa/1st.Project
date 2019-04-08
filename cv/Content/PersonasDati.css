@@ -8,16 +8,13 @@ body {
 bg {
     font-family: Berkshire Swash;
 }
-.row{
-    float:left;
-}
-*,*:before,*:after{
+
+*,*:before, *:after{
     box-sizing:inherit;
 }
 .column {
     float: left;
     width:40%;
-    height: 100%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
@@ -27,7 +24,7 @@ bg {
         display:block;
     }
 }
-.card{
+.card {
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.8);
 }
 
@@ -35,12 +32,12 @@ bg {
     padding:0 16px;
     color:navajowhite;
 }
-.container:after, .row:after{
+.container::after, .row::after {
     content: "";
-    clear:both;
-    display:table;
+    clear: both;
+    display: table;
 }
-.button{
+.button {
     border:none;
     outline:0;
     display:inline-block;
@@ -99,6 +96,8 @@ span.psw {
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    font-size:30px;
+    color:cadetblue;
 }
 
 /* The Close Button (x) */
